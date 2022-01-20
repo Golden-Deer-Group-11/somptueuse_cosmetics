@@ -12,7 +12,7 @@
 							<h1 class="m-b-20"><strong>Somptueuse Cosmetics</strong></h1>
 							<p class="m-b-40">Be On Your Most Confident Self,   <br> 
 							<!--World's Greatest Hamburgers--></p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Liptints</a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="menu.php">Liptints</a></p>
 						</div>
 					</div>
 				</div>
@@ -26,7 +26,7 @@
 							<p class="m-b-40">Daisy is a symbol of new beginnings 
 <br> 
 							This collection is a mark of a new chapter...</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Contact Us</a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="contact.php">Contact Us</a></p>
 						</div>
 					</div>
 				</div>
@@ -39,7 +39,7 @@
 							<h1 class="m-b-20"><strong>Mini <br> Collection</strong></h1>
 							<p class="m-b-40">Just be yourself..<br> 
 							And do what makes you happy</p>
-							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Review</a></p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="review.php">Review</a></p>
 						</div>
 					</div>
 				</div>
@@ -64,7 +64,7 @@
 Gujarati Restaurants in Bopal, 
  </p>
 						<p>Quick Bites in Ahmedabad, Quick Bites near me, Quick Bites in West Ahmedabad, Quick Bites in Bopal, in Ahmedabad, near me, in West Ahmedabad, in Bopal, in Ahmedabad, near me, in West Ahmedabad, in Bopal, New Year Parties in Ahmedabad, Christmas' Special in Ahmedabad,</p>
-						<a class="btn btn-lg btn-circle btn-outline-new-white" href="#">Contact Us</a>
+						<a class="btn btn-lg btn-circle btn-outline-new-white" href="contact.php">Contact Us</a>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
@@ -249,7 +249,7 @@ Gujarati Restaurants in Bopal,
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
-						<h2>Gallery</h2>
+						<h2>Collections</h2>
 						<p>Delicious food Pictures for Maher Restaurent Listed Here </p>
 					</div>
 				</div>
@@ -319,7 +319,7 @@ Gujarati Restaurants in Bopal,
 								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Nilkanth</strong></h5>
 								<h6 class="text-dark m-0">Review : Good</h6>
 								<p class="m-0 pt-3">
-									Good Food, Good Health
+									Good Price, Good Product
 
 								</p>
 							</div>

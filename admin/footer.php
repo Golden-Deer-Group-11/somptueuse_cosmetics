@@ -1,2 +1,2 @@
 <br><br>
-<div class="footer"> Design & Developed By: Avadh Tutor</div>
+<div class="footer"> Design & Developed By: Golden Deer</div>

@@ -22,9 +22,9 @@
 	<br>
 	<div>
 		<?php include "connect.php";
-			$s = mysqli_query($con,"SELECT addcart.price, addcart.qty, addcart.total,addcart.id, menu.image
+			$s = mysqli_query($con,"SELECT addcart.price, addcart.qty, addcart.total,addcart.id, products.image
 FROM addcart
-INNER JOIN menu ON addcart.p_id=menu.id where addcart.u_id='$uid'");
+INNER JOIN products ON addcart.p_id=products.id where addcart.u_id='$uid'");
 		?>
 		<table border=1 width="80%" align="center" cellpadding="8" cellspacing="10" style="color: black">
 		<tr><th>image  </th>

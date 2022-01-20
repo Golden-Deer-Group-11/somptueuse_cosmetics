@@ -6,7 +6,7 @@
 	
 	<!-- Start Contact -->
 	<div>
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.0841636956277!2d72.47745182625192!3d23.01140812252083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bb90242761b%3A0x1ee56cca53e72dac!2sMaher%20Kathiyawadi%20Restaurant!5e0!3m2!1sen!2sin!4v1606132935575!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15436.812325372883!2d121.0737087247804!3d14.701104585815015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ba121d94bd2d%3A0x33920ef2fba053c1!2sCommonwealth%2C%20Quezon%20City%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1642687377747!5m2!1sen!2sph" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 	</div>
 	<div class="contact-box">
@@ -15,7 +15,7 @@
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
 						<h2>Contact</h2>
-						<p>Contact Information are Listed here Thanks for Visit Our Site</p>
+						<p>Contact Information are listed here. Thanks for visiting our site.</p>
 					</div>
 				</div>
 			</div>

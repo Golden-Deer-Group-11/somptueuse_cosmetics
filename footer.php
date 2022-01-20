@@ -41,13 +41,13 @@
 			<div class="row">
 				<div class="col-lg-3 col-md-6">
 					<h3>Somptueuse Cosmetics</h3>
+					<p class="list-inline-item"><a href="index.php">Home</a></p> <br>
+					<p class="list-inline-item"><a href="contact.php">Contact Us</a></p> <br>
+					<p class="list-inline-item"><a href="menu.php">Products</a></p> <br>
+					<p class="list-inline-item"><a href="gallery.php">Collections</a></p> 
+
 					<div class="subscribe_form">
-						
-						<a href="">Home</a><br>
-						<a href="">Contact Us</a><br>
-						<a href="">Products</a><br>
-						<a href="">Collections</a><br>
-						
+				
 						
 					</div>
 
@@ -55,10 +55,10 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<h3>Keep in touch:</h3>
-					<p class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
+					<p class="list-inline-item"><a href="https://www.facebook.com/somptueusecosmetics"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
 					<p class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></p>
 					<p class="list-inline-item"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></p>
-					<p class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
+					<p class="list-inline-item"><a href="https://instagram.com/somptueuse_cosmetics"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
 
 				</div>
 				<div class="col-lg-3 col-md-6">

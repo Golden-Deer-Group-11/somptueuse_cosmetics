@@ -24,9 +24,9 @@ include "header.php"; ?>
 		</tr>
 		<?php 
 
-		$s = mysqli_query($con,"SELECT addcart.price, addcart.p_id, addcart.qty, addcart.total,addcart.id, checkout.name, addcart.u_id, menu.image
+		$s = mysqli_query($con,"SELECT addcart.price, addcart.p_id, addcart.qty, addcart.total,addcart.id, checkout.name, addcart.u_id, products.image
 FROM addcart
-INNER JOIN checkout ON addcart.p_id=checkout.p_id INNER JOIN menu on menu.id=checkout.p_id  where addcart.u_id='$uid' and checkout.p_id='$pid'");
+INNER JOIN checkout ON addcart.p_id=checkout.p_id INNER JOIN products on products.id=checkout.p_id  where addcart.u_id='$uid' and checkout.p_id='$pid'");
 
 
 		while($r = mysqli_fetch_array($s))
