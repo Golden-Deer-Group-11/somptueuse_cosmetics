@@ -157,7 +157,7 @@ Gujarati Restaurants in Bopal,
 
 
 							<?php include "connect.php";
-								$s = mysqli_query($con,"select * from menu where category='kathiyawadi'");
+								$s = mysqli_query($con,"select * from products where category='beauty'");
 								while($r = mysqli_fetch_array($s))
 								{	
 								?>
@@ -200,7 +200,7 @@ Gujarati Restaurants in Bopal,
 							<div class="row">
 								
 								<?php include "connect.php";
-								$s = mysqli_query($con,"select * from menu where category='rajsthani'");
+								$s = mysqli_query($con,"select * from products where category='accessories'");
 								while($r = mysqli_fetch_array($s))
 								{	
 								?>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 20, 2022 at 10:00 AM
+-- Generation Time: Jan 20, 2022 at 12:10 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.25
 
@@ -46,7 +46,8 @@ INSERT INTO `addcart` (`id`, `p_id`, `u_id`, `price`, `qty`, `total`) VALUES
 (4, 2, 'abcd', 100, 3, 300),
 (5, 6, 'abcd', 30, 3, 90),
 (6, 11, 'admin', 30, 2, 60),
-(7, 1, 'aa', 99, 1, 99);
+(7, 1, 'aa', 99, 1, 99),
+(8, 2, 'aa', 79, 1, 79);
 
 -- --------------------------------------------------------
 
@@ -118,7 +119,9 @@ CREATE TABLE `checkout` (
 INSERT INTO `checkout` (`id`, `p_id`, `u_id`, `name`, `mobile`, `email`, `location`) VALUES
 (2, 8, 'abcd', '', 0, '', ''),
 (3, 1, 'abcd', '', 0, '', ''),
-(4, 8, 'abcd', '', 0, '', '');
+(4, 8, 'abcd', '', 0, '', ''),
+(24, 1, 'aa', 'lancey', 921709347, 'lanceyfem@gmail.com', 'deedff'),
+(25, 2, 'aa', 'lancey', 921709347, 'lanceyfem@gmail.com', 'deedff');
 
 -- --------------------------------------------------------
 
@@ -200,7 +203,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `category`, `sub_cat`, `title`, `description`, `price`, `image`) VALUES
-(1, 'beauty', 'HD Matte Tints', 'Aster', 'Aster is a HD Matte Tint in the shade of Warm Red', 99, 'mimg/aster.jpg'),
+(1, 'beauty', 'Powdery Matte Tints', 'Aster', 'Aster is a Powdery Matte Tint in the shade of Warm Red', 99, 'mimg/aster.jpg'),
 (2, 'beauty', 'Carrier Oil', 'Castor Oil', 'Castor Oil is a great remedy for hair problems as it contains ricinoleic acid and Vitamin E that\'s good for the scalp\'s health. Use everyday for best resuts.', 79, 'mimg/castor_oil.jpg'),
 (3, 'beauty', 'HD Matte Tint', 'Crimson', 'Crimson is a HD Matte Tint in the shade of Dark Red', 99, 'mimg/crimson.jpg'),
 (4, 'beauty', 'Powdery Matte Tints', 'Hyacinth', 'Hyacinth is a Powdery Matte Tint in the shade of Light Brown with Pink', 99, 'mimg/hyacinth.jpg'),
@@ -213,7 +216,8 @@ INSERT INTO `products` (`id`, `category`, `sub_cat`, `title`, `description`, `pr
 (11, 'accessories', 'Necklace', 'Moon Necklace', 'This is a hypo-allergenic, Rose Gold Plated necklace designed to symbolize that after every sunset, a new beautiful chapter begins', 109, 'mimg/moon_necklace.png'),
 (12, 'accessories', 'Hair Tie', 'Scrunchies', 'Scrunchies is an elastic hair tie made with Satin cloth to avoid breakage and split ends.', 10, 'mimg/scrunchies.jpg'),
 (13, 'accessories', 'Necklace', 'Sol & Luna Necklace', 'This is a hypo-allergenic, Rose Gold Plated necklace.', 109, 'mimg/sol&luna.jpg'),
-(14, 'accessories', 'Necklace', 'Two-Layered Necklace', 'This is a hypo-allergenic, Rose Gold Plated necklace.', 89, 'mimg/two-layer_necklace.jpg');
+(14, 'accessories', 'Necklace', 'Two-Layered Necklace', 'This is a hypo-allergenic, Rose Gold Plated necklace.', 89, 'mimg/two-layer_necklace.jpg'),
+(15, 'beauty', 'Powdery Matte Tints', 'Evo', 'Evo is a Powdery Matte Tint in the shade of Light Brown with Pink', 99, 'mimg/evo.jpg');
 
 -- --------------------------------------------------------
 
@@ -316,7 +320,7 @@ ALTER TABLE `review`
 -- AUTO_INCREMENT for table `addcart`
 --
 ALTER TABLE `addcart`
-  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `category`
@@ -328,7 +332,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT for table `checkout`
 --
 ALTER TABLE `checkout`
-  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `gallery`
@@ -340,7 +344,7 @@ ALTER TABLE `gallery`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `registration`
