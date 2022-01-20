@@ -24,7 +24,7 @@ include "header.php";
 
 			    <tr align="center">
 			    	<td style="color: red">   Enter Mobile no <br>
-			        <input type="no" name="mo" placeholder="Enter Mobile no" style="width: 100%; padding: 10px; color: orange; background-color: black" required="" pattern="\d{10}"></td>
+			        <input type="no" name="mo" placeholder="Enter Mobile no" style="width: 100%; padding: 10px; color: orange; background-color: black" required="" pattern="\d{11}"></td>
 			    </tr>
 
 			    <tr align="center">
