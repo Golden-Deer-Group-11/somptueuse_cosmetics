@@ -52,7 +52,7 @@
 			    </tr>
 
                 <tr align="center">
-                	<td colspan="4"> <input type="submit" name="sb" value="Add To Cart Now"></td>
+                	<td colspan="4"> <input type="submit" name="sb" value="Add To Cart Now" ></td>
                 </tr>
 		</table>
 	</form>
@@ -67,7 +67,7 @@
 
 				include "connect.php";
 				mysqli_query($con,"insert into addcart(p_id,u_id,price,qty,total ) values('$pid','$uid','$price','$qty','$total')") or die(mysqli_error($con));
-				echo "<script>alert('Your data Is Add Inside Cart')</script>";
+				echo "<script>alert('Product Added Inside Your Cart')</script>";
 
 			}
 
