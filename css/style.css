@@ -2,7 +2,7 @@
     IMPORT FONTS
 -------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -20,9 +20,10 @@
 body {
     color: #666666;
     font-size: 15px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Forum', cursive;
     line-height: 1.80857;
 }
+
 
 
 a {
@@ -97,7 +98,7 @@ h6 a:hover {
 }
 
 a {
-    color: #1f1f1f;
+    color:#1f1f1f;
     text-decoration: none;
     outline: none;
 }
@@ -112,6 +113,7 @@ a,
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
 
 .btn-custom {
     margin-top: 20px;
@@ -183,11 +185,11 @@ button:focus{
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	background: #d65106;
+	background: #964d29;
 	color: #ffffff;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
-	background: #d65106;
+	background: #964d29;
 	color: #ffffff;
 	border-radius: 4px;
 }
@@ -204,11 +206,11 @@ button:focus{
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
-	background: #d65106;
+	background: #964d29;
 	color: #ffffff;
 }
 .navbar-light .navbar-toggler:hover{
-	background: #d65106;
+	background: #964d29;
 }
 
 /*------------------------------------------------------------------
@@ -219,7 +221,7 @@ button:focus{
 	height: 100vh;
 }
 .slides-navigation a {
-	background: #d65106;
+	background: #964d29;
     position: absolute;
     height: 50px;
     width: 50px;
@@ -275,9 +277,9 @@ button:focus{
 }
 .btn-outline-new-white {
     color: #fff;
-    background-color: #d65106;
+    background-color: #964d29;
     background-image: none;
-    border-color: #d65106;
+    border-color: #964d29;
 }
 .btn-outline-new-white:hover {
     color: #ffffff;
@@ -296,7 +298,7 @@ button:focus{
 }
 
 .cover-slides h1{
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Forum', cursive;
 	font-weight: 500;
 	font-size: 64px;
 	color: #fff;
@@ -309,8 +311,8 @@ button:focus{
 	border: 2px solid #ffffff;
 }
 .slides-pagination a.current{
-	background: #d65106;
-	border: 2px solid #d65106;
+	background: #964d29;
+	border: 2px solid #964d29;
 }
 
 /*------------------------------------------------------------------
@@ -323,19 +325,19 @@ button:focus{
 	background-size: cover;
 }
 .about-section-box .img-fluid{
-	box-shadow: 20px 20px 0px #d65106;
+	box-shadow: 20px 20px 0px #964d29;
 }
 .inner-column{
 	text-align: left;
 }
 .inner-column h1{
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Forum', cursive;
 	font-size: 30px;
 	color: #010101;
 	font-weight: 500;
 }
 .inner-column h1 span{
-	color: #d65106;
+	color: #964d29;
 }
 .inner-column h4{
 	font-size: 16px;
@@ -370,7 +372,7 @@ button:focus{
     font-weight: 300;
     line-height: 44px;
     color: #fff;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Forum', cursive;
 	margin-bottom: 20px;
 }
 
@@ -394,7 +396,7 @@ button:focus{
 .heading-title h2{
 	color: #010101;
 	font-size: 28px;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Forum', cursive;
 	font-weight: 500;
 }
 .heading-title p{
@@ -405,13 +407,13 @@ button:focus{
 
 .inner-menu-box{}
 .inner-menu-box .nav-pills .nav-link.active{
-	background: #d65106;
+	background: #964d29;
 }
 .inner-menu-box .nav-pills .nav-link{
 	font-size: 18px;
 }
 .inner-menu-box .nav-pills .nav-link:hover{
-	background: #d65106;
+	background: #964d29;
 	color: #ffffff;
 }
 
@@ -441,7 +443,7 @@ button:focus{
 	color: #ffffff;
 	font-size: 16px;
 	font-weight: 500;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Forum', cursive;
 }
 .why-text p{
 	color: #ffffff;
@@ -483,7 +485,7 @@ button:focus{
     box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 .tz-gallery .lightbox{
-	border: 3px solid #d65106;
+	border: 3px solid #964d29;
 	display: inline-block;
 	margin-bottom: 30px;
 }
@@ -512,7 +514,7 @@ button:focus{
 }
 
 .text-warning{
-	color: #d65106 !important;
+	color: #964d29 !important;
 	font-size: 24px;
 }
 
@@ -532,7 +534,7 @@ button:focus{
 }
 
 #reviews .carousel-control-prev{
-	background: #d65106;
+	background: #964d29;
 	color: #ffffff;
 	display: block;
 	position: absolute;
@@ -549,7 +551,7 @@ button:focus{
 }
 
 #reviews .carousel-control-next{
-	background: #d65106;
+	background: #964d29;
 	color: #ffffff;
 	display: block;
 	position: absolute;
@@ -571,7 +573,7 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .contact-imfo-box{
-	background: #d65106;
+	background: #964d29;
 	padding: 30px 0;
 	border-radius: 100px;
 }
@@ -588,7 +590,7 @@ button:focus{
 	line-height: 60px;
 	text-align: center;
 	background: #fff;
-	color: #d65106;
+	color: #964d29;
 	font-size: 30px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -686,14 +688,14 @@ button:focus{
 	margin-bottom: 15px;
 }
 .footer-area p.lead a:hover{
-	color: #d65106;
+	color: #964d29;
 }
 .footer-area p a{
 	font-size: 18px;
 	color: #ffffff;
 }
 .footer-area p a:hover{
-	color: #d65106;
+	color: #964d29;
 }
 
 .subscribe_form {
@@ -717,7 +719,7 @@ button:focus{
 }
 
 .subscribe_form .submit {
-    background-color: #d65106;
+    background-color: #964d29;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -801,7 +803,7 @@ button:focus{
 .all-page-title h1{
 	font-size: 38px;
 	color: #ffffff;
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Forum', cursive;
 	padding: 0px;
 	font-weight: 500;
 }
@@ -884,7 +886,7 @@ button:focus{
     content: "";
     width: 100%;
     height: 100%;
-    background: #d65106;
+    background: #964d29;
     border-radius: 0 20px 20px 20px;
     position: absolute;
     top: 0;
@@ -898,7 +900,7 @@ button:focus{
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 2px;
-    color: #d65106;
+    color: #964d29;
     text-transform: uppercase;
     margin-bottom: 7px;
 }
@@ -937,22 +939,22 @@ button:focus{
 	min-height: 50px;
 }
 .form-control:focus{
-	border: 1px solid #d65106;
+	border: 1px solid #964d29;
 	box-shadow: none;
 }
 
 .form-group .picker__input.picker__input--active{
-	border-color: #d65106;
+	border-color: #964d29;
 }
 
 .submit-button{
 	margin-top: 20px;
 }
 .btn.btn-common{
-	color: #d65106;
+	color: #964d29;
 	background-color: transparent;
 	background-image: none;
-	border-color: #d65106;
+	border-color: #964d29;
 }
 .btn.btn-common:hover{
 	color: #ffffff;
@@ -993,7 +995,7 @@ button:focus{
     padding: 0px 5px;
 }
 .blog-detail ul li span{
-	color: #d65106;
+	color: #964d29;
 	cursor: pointer;
 }
 .blog-detail ul li span:hover{
@@ -1035,7 +1037,7 @@ button:focus{
     position: absolute;
     right: 0px;
     top: 0px;
-    background: #d65106;
+    background: #964d29;
     font-size: 18px;
     color: #ffffff;
     padding: 5px 15px 5px 5px;
@@ -1057,13 +1059,13 @@ button:focus{
     color: #222222;
 }
 .inner-blog-detail ul li span {
-    color: #d65106;
+    color: #964d29;
 }
 .inner-blog-detail p {
     padding: 10px 0px;
 }
 .details-page blockquote {
-    border-left: 5px solid #d65106;
+    border-left: 5px solid #964d29;
 }
 .details-page blockquote {
     padding: 20px;
@@ -1111,11 +1113,11 @@ blockquote {
     font-size: 12px;
 }
 .line-left-social ul li a:hover {
-    background: #d65106;
+    background: #964d29;
     color: #ffffff;
 }
 .line-right-social ul li a:hover {
-    background: #d65106;
+    background: #964d29;
     color: #ffffff;
 }
 .line-right-social h5 {
@@ -1174,7 +1176,7 @@ blockquote {
     border-radius: 6px;
 }
 .right-btn-re:hover {
-    background: #d65106;
+    background: #964d29;
     color: #ffffff !important;
 }
 .comment-respond-box {
@@ -1204,10 +1206,10 @@ blockquote {
 }
 
 .btn-submit{
-	color: #d65106;
+	color: #964d29;
 	background-color: transparent;
 	background-image: none;
-	border-color: #d65106;
+	border-color: #964d29;
 }
 .btn-submit:hover{
 	color: #ffffff;
@@ -1264,7 +1266,7 @@ blockquote {
     width: 100%;
 }
 .blog-categories ul li a:hover{
-	color: #d65106;
+	color: #964d29;
 }
 .recent-box-blog {
     margin-bottom: 20px;
@@ -1282,7 +1284,7 @@ blockquote {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #d65106;
+    background-color: #964d29;
     opacity: 0.4;
     transform: scale(0);
     -webkit-transform: scale(0);
@@ -1331,7 +1333,7 @@ blockquote {
 }
 .blog-tag-box ul li a:hover {
     color: #ffffff;
-    background: #d65106;
+    background: #964d29;
 }
 
 .contact-box{
@@ -1354,7 +1356,7 @@ blockquote {
     height: 40px;
     text-align: center;
     line-height: 40px;
-    background: #d65106;
+    background: #964d29;
     color: #ffffff;
     cursor: pointer;
     border: 0;
