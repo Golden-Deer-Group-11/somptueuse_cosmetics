@@ -33,26 +33,26 @@
 
 			    <tr align="center">
 
-			    	<td style="color: red">  Product ID  </td>
+			    	<td style="color: #964d29">  Product ID  </td>
 			    	<td> <input type="hidden" name="pid"  value="<?php echo $_GET['pid']; ?>"><?php echo $_GET['pid']; ?></td>
-			    	
 			    </tr>
 
 			    <tr align="center">
-			    	<td style="color: red">   Your USERID </td>
+			    	<td style="color: #964d29">   User ID </td>
 			        <td> <input type="hidden" name="uid" value="<?php echo $_GET['uid']; ?>"><?php echo $_GET['uid']; ?></td>
 			    </tr>
+			    
 			    <tr align="center">
-			    	<td style="color: red">   Price </td>
+			    	<td style="color: #964d29">   Price </td>
 			        <td> <input type="hidden" name="price" value="<?php echo $_GET['price']; ?>"><?php echo $_GET['price']; ?></td>
 			    </tr>
 				    <tr align="center">
-			    	<td style="color: red">   QTY</td>
+			    	<td style="color: #964d29">   QTY</td>
 			        <td> <input type="number" name="qty" value="" min=1 max=10 required></td>
 			    </tr>
 
                 <tr align="center">
-                	<td colspan="4"> <input type="submit" name="sb" value="Add To Cart Now" ></td>
+                	<td colspan="4"> <input type="submit" name="sb" value="Add to cart now" style="color:white; background: #964D29; font-size: 1.2em; border-radius: 4px;border-color: black; font-family:Forum" ></td>
                 </tr>
 		</table>
 	</form>
@@ -67,15 +67,10 @@
 
 				include "connect.php";
 				mysqli_query($con,"insert into addcart(p_id,u_id,price,qty,total ) values('$pid','$uid','$price','$qty','$total')") or die(mysqli_error($con));
-				echo "<script>alert('Product Added Inside Your Cart')</script>";
-
+				echo "<script>alert('Product added to your cart')</script>";
 			}
 
 			?>
-					
-
-
-
 
 				</div>
 			</div>
