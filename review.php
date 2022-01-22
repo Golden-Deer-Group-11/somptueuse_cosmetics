@@ -37,7 +37,7 @@
 							<div class="col-md-12">
 								<div class="form-group">
 									<select class="custom-select d-block form-control" id="guest" name="rev" required data-error="Please Select Person">
-									  <option value="Exellent">Exellent</option>
+									  <option value="Exellent">Excellent</option>
 									  <option value="Good">Good</option>
 									  <option value="Poor">Poor</option>
 									  <option value="Very Poor">Very Poor</option>
