@@ -25,25 +25,25 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group">
-									<h1 style="font-family: cambria; color: red; text-align: center;">Somptueuse Cosmetics</h1>
+									<h1 style="font-family: Forum; color: #964d29; text-align: center;">Somptueuse Cosmetics</h1>
 									<div class="help-block with-errors"></div>
 								</div>                                 
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<center><span style="color: tomato; font-size: 1.3em; text-align: center; "><b>Email Us :</b> somptueusecosmetics@gmail.com</span></center>
+									<center><span style="color: black; font-size: 1.3em; text-align: center; "><b style="color: #964d29">Email Us :</b> somptueusecosmetics@gmail.com</span></center>
 									<div class="help-block with-errors"></div>
 								</div> 
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<center><span style="color: tomato; font-size: 1.3em; text-align: center; "><b>Mobile  :</b> +63 926 4438 378</span></center>
+									<center><span style="color: black; font-size: 1.3em; text-align: center; "><b style="color: #964d29">Mobile  :</b> +63 926 4438 378</span></center>
 									<div class="help-block with-errors"></div>
 								</div> 
 							</div>
 							<div class="col-md-12">
 								<div class="form-group"> 
-									<center><span style="color: tomato; font-size: 1.3em; text-align: center; "><b>Location  :</b> Commonwealth, Quezon City, Philippines</span></center>
+									<center><span style="color: black; font-size: 1.3em; text-align: center; "><b style="color: #964d29">Location  :</b> Commonwealth, Quezon City, Philippines</span></center>
 									<div class="help-block with-errors"></div>
 								</div>
 								

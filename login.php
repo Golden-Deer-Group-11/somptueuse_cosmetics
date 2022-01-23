@@ -42,7 +42,7 @@
 		</tr>
 		<tr align="center">
         	<td>
-        	 <input type="text" name="uid" placeholder="Enter Your User ID" style="padding: 10px; width: 100%"> <br>  </td>
+        	 <input type="text" name="uid" placeholder="Enter User ID" style="padding: 10px; width: 100%"> <br>  </td>
 		</tr>
 
 		<tr>
@@ -58,7 +58,7 @@
 		</tr>
         <tr>
         	<td align="center">
-        		<a href="registration.php"> Create an Account</a>
+        		<a href="registration.php">Create an Account</a>
         	</td>
         </tr>
 </form>

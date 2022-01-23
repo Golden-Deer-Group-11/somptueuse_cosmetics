@@ -309,6 +309,8 @@ button:focus{
 }
 .slides-pagination a{
 	border: 2px solid #ffffff;
+	margin: 5px;
+	height: 30px;
 }
 .slides-pagination a.current{
 	background: #964d29;
@@ -636,12 +638,11 @@ button:focus{
 	background-origin: initial;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;*/
+	background-size: cover;*/
+	position: relative;
 }
 .bg-f::before {
-    background: #010101;
-    content: "";
+	background: #ffffff;
     height: 100%;
     left: 0;
     position: absolute;

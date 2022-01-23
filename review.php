@@ -72,11 +72,6 @@
 					}	
 
 					?>
-
-
-
-
-
 				</div>
 			</div>
 		
@@ -90,7 +85,7 @@
 				<div class="col-lg-12">
 					<div class="heading-title text-center">
 						<h2>Customer Reviews</h2>
-						<p>"if you build a greater experience, customer tell each other about that, word of mouth is very powerful"</p>
+						<p>"If you build a greater experience, customers tell each other about that, word of mouth is very powerful"</p>
 					</div>
 				</div>
 			</div>

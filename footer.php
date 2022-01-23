@@ -62,11 +62,11 @@
 			-->
 
 				<div class="col-lg-3 v-divider">
-					<h2 style="color: #964d29" >KEEP IN TOUCH</h2>
-					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="https://www.facebook.com/somptueusecosmetics" target="_blank"> <img src = "images/facebook.png" style="width: 50px; height:50px;"></a></p>
-					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="https://instagram.com/somptueuse_cosmetics" target="_blank"> <img src = "images/instagram.png" style="width: 50px; height:50px;"></a></p>
-					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="#" target="_blank"> <img src = "images/shopee.png" style="width: 50px; height:50px;"></a></p>
-					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="mailto:
+					<h2 style="color: #964d29">KEEP IN TOUCH</h2>
+					<p class="list-inline-item" style="padding: 7px"><a href="https://www.facebook.com/somptueusecosmetics" target="_blank"> <img src = "images/facebook.png" style="width: 50px; height:50px;"></a></p>
+					<p class="list-inline-item" style="padding: 7px"><a href="https://instagram.com/somptueuse_cosmetics" target="_blank"> <img src = "images/instagram.png" style="width: 50px; height:50px;"></a></p>
+					<p class="list-inline-item" style="padding: 7px"><a href="#" target="_blank"> <img src = "images/shopee.png" style="width: 50px; height:50px;"></a></p>
+					<p class="list-inline-item" style="padding: 7px"><a href="mailto:
 					somptueusecosmetics@gmail.com" target="_blank"> <img src = "images/gmail.png" style="width: 50px; height:50px;"></a> </p>
 				</div>
 
