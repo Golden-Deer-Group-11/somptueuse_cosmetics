@@ -29,10 +29,8 @@
 						<a href="#" target="_blank"> <img src = "images/tiktok.png" style="width: 50px; height:50px;"></a> 
 					</div>
 				</div>
-			</div> <br> <br>
-			<div class="row">
-					<div class="col-lg-6 col-md-6">
-						<img src="images/145073737_981756025952713_2115591746165112032_n.jpg" style="height: 400px; width: 400px" class="img-circular">
+			<div class="col-lg-6 col-md-6">
+						<br><img src="images/145073737_981756025952713_2115591746165112032_n.jpg" style="height: 400px; width: 400px" class="img-circular">
 					</div>
 					<div class="col-lg-6 col-md-6 text-center">
 						<div class="inner-column">
@@ -45,7 +43,8 @@
 							<a href="#" target="_blank"> <img src = "images/tiktok.png" style="width: 50px; height:50px;"></a> 
 						</div>
 					</div>
-				</div> <br><br>
+			</div> 
+		</div> <br><br>
 	<!-- End Brand Ambassadors -->
 	
 	<?php include "footer.php" ; ?>
