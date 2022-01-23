@@ -45,18 +45,29 @@
 					<p class="list-inline-item"><a href="contact.php">Contact Us</a></p> <br>
 					<p class="list-inline-item"><a href="menu.php">Products</a></p> <br>
 					<p class="list-inline-item"><a href="gallery.php">Collections</a></p> <br>
-					<p class="list-inline-item"><a href="gallery.php">Brand Ambassadors</a></p> <br>
-					<p class="list-inline-item"><a href="gallery.php">Brand Influencers</a></p> 
+					<p class="list-inline-item"><a href="br_amb.php">Brand Ambassadors</a></p> <br>
+					<p class="list-inline-item"><a href="br_inf.php">Brand Influencers</a></p> 
 
 					<div class="subscribe_form"></div>
 				</div>
 
+<!--
 				<div class="col-lg-3 v-divider">
 					<h2 style="color: #964d29" >KEEP IN TOUCH</h2>
 					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="https://www.facebook.com/somptueusecosmetics"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
 					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></p>
 					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></p>
 					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="https://instagram.com/somptueuse_cosmetics"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
+				</div>
+			-->
+
+				<div class="col-lg-3 v-divider">
+					<h2 style="color: #964d29" >KEEP IN TOUCH</h2>
+					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="https://www.facebook.com/somptueusecosmetics" target="_blank"> <img src = "images/facebook.png" style="width: 50px; height:50px;"></a></p>
+					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="https://instagram.com/somptueuse_cosmetics" target="_blank"> <img src = "images/instagram.png" style="width: 50px; height:50px;"></a></p>
+					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="#" target="_blank"> <img src = "images/shopee.png" style="width: 50px; height:50px;"></a></p>
+					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="mailto:
+					somptueusecosmetics@gmail.com" target="_blank"> <img src = "images/gmail.png" style="width: 50px; height:50px;"></a> </p>
 				</div>
 
 				<div class="col-lg-3">
@@ -71,7 +82,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<p class="company-name" style="color: white"> &copy; 2020 <a href="#">Somptueuse Cosmetics</a> Developed By :  Golden Deer
+						<p class="company-name" style="color: white"> &copy; 2020 <a href="#">Somptueuse Cosmetics</a> Developed By:  Golden Deer
 					<a href=""></a><br>
 				</p>
 					</div>

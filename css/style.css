@@ -327,6 +327,10 @@ button:focus{
 .about-section-box .img-fluid{
 	box-shadow: 20px 20px 0px #964d29;
 }
+.brand-section-box .img-circular{
+	box-shadow: 20px 20px 0px #964d29;
+	border-radius: 50%;
+}
 .inner-column{
 	text-align: left;
 }
@@ -335,6 +339,7 @@ button:focus{
 	font-size: 30px;
 	color: #010101;
 	font-weight: 500;
+	margin-top:100px;
 }
 .inner-column h1 span{
 	color: #964d29;

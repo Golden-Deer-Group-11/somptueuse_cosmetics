@@ -37,10 +37,11 @@
 							<div class="col-md-12">
 								<div class="form-group">
 									<select class="custom-select d-block form-control" id="guest" name="rev" required data-error="Please Select Person">
-									  <option value="Exellent">Excellent</option>
+									  <option value="Excellent">Excellent</option>
 									  <option value="Good">Good</option>
+									  <option value="Average">Average</option>
+									  <option value="Fair">Fair</option>
 									  <option value="Poor">Poor</option>
-									  <option value="Very Poor">Very Poor</option>
 									  
 									</select>
 									<div class="help-block with-errors"></div>
@@ -98,7 +99,7 @@
 					<div id="reviews" class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner mt-4">
 							<?php include "connect.php";
-							$s = mysqli_query($con,"select * from review  limit 4");	
+							$s = mysqli_query($con,"select * from review  limit 5");	
 							 while($r = mysqli_fetch_array($s))
 							 {
 							 ?>

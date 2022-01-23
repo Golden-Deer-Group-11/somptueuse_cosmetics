@@ -195,42 +195,6 @@
 						</div>
 					</div>		
  
-                          
-						<div class="tab-pane fade" id="v-pills-tava" role="tabpanel" aria-labelledby="v-pills-tava-tab">
-							<div class="row">
-								<?php include "connect.php";
-								$s = mysqli_query($con,"select * from products where category='tava'");
-								while($r = mysqli_fetch_array($s))
-								{	
-								?>
-								<div class="col-lg-4 col-md-6 special-grid drinks">
-									<div class="gallery-single fix">
-										<img src="admin/<?php echo $r['image']; ?>" class="img-fluid" alt="Image" style='width: 280px; height:280px;'>
-										<div class="why-text">
-											<h4><?php echo $r['title']; ?></h4>
-											<p><?php echo $r['description']; ?></p>
-											<h5>₱ <?php echo $r['price']; ?> /-</h5>
-											<h5 align="center"><?php if(isset($_SESSION['uid']))
-									{
-									?>
-											<a href="addcart.php?pid=<?php echo $r['id']; ?>&uid=<?php echo $_SESSION['uid']; ?>&price=<?php echo $r['price']; ?>">Add to Cart</a></h5>
-
-									<?php
-									}
-									else
-									{
-									?>
-										<a href="login.php">Add to Cart</a>
-									<?php } ?></h5>
-										</div>
-									</div>
-								</div>
-								<?php } ?>	
-
-								
-							
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
