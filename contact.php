@@ -13,25 +13,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="heading-title text-center">
-						<h2>Contact</h2>
-						<p>Contact Information are listed here. Thanks for visiting our site.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-12">
 					<form id="contactForm">
 						<div class="row">
 							<div class="col-md-12">
 								<div class="form-group">
 									<h1 style="font-family: Forum; color: #964d29; text-align: center;">Somptueuse Cosmetics</h1>
+									<p  style="font-family: Forum; text-align: center;">Thank you for visiting our site. You can contact us through the following:</p>
 									<div class="help-block with-errors"></div>
 								</div>                                 
 							</div>
 							<div class="col-md-12">
 								<div class="form-group">
-									<center><span style="color: black; font-size: 1.3em; text-align: center; "><b style="color: #964d29">Email Us :</b> somptueusecosmetics@gmail.com</span></center>
+									<center><span style="color: black; font-size: 1.3em; text-align: center; "><b style="color: #964d29">Email :</b> somptueusecosmetics@gmail.com</span></center>
 									<div class="help-block with-errors"></div>
 								</div> 
 							</div>
