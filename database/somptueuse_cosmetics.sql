@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 20, 2022 at 12:10 PM
+-- Generation Time: Jan 26, 2022 at 10:06 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.25
 
@@ -46,8 +46,7 @@ INSERT INTO `addcart` (`id`, `p_id`, `u_id`, `price`, `qty`, `total`) VALUES
 (4, 2, 'abcd', 100, 3, 300),
 (5, 6, 'abcd', 30, 3, 90),
 (6, 11, 'admin', 30, 2, 60),
-(7, 1, 'aa', 99, 1, 99),
-(8, 2, 'aa', 79, 1, 79);
+(14, 1, 'aa', 99, 1, 99);
 
 -- --------------------------------------------------------
 
@@ -217,7 +216,10 @@ INSERT INTO `products` (`id`, `category`, `sub_cat`, `title`, `description`, `pr
 (12, 'accessories', 'Hair Tie', 'Scrunchies', 'Scrunchies is an elastic hair tie made with Satin cloth to avoid breakage and split ends.', 10, 'mimg/scrunchies.jpg'),
 (13, 'accessories', 'Necklace', 'Sol & Luna Necklace', 'This is a hypo-allergenic, Rose Gold Plated necklace.', 109, 'mimg/sol&luna.jpg'),
 (14, 'accessories', 'Necklace', 'Two-Layered Necklace', 'This is a hypo-allergenic, Rose Gold Plated necklace.', 89, 'mimg/two-layer_necklace.jpg'),
-(15, 'beauty', 'Powdery Matte Tints', 'Evo', 'Evo is a Powdery Matte Tint in the shade of Light Brown with Pink', 99, 'mimg/evo.jpg');
+(15, 'beauty', 'Powdery Matte Tints', 'Evo', 'Evo is a Powdery Matte Tint in the shade of Light Brown with Pink', 99, 'mimg/evo.jpg'),
+(16, 'collections', 'Daisy Collection', 'Daisy Collection', 'Daisy means new beginnings and this collection expresses a new chapter. Daisy Collection includes neutral to rich red that\'s perfect for everyday use. Get this collection for', 299, 'mimg/daisy1.jpg'),
+(17, 'collections', 'Vintage Collection', 'Vintage Collection', 'et this collection bring you to the golden age with the shades that resembles the past. Get this collection for', 399, 'mimg/vintage_collection.png'),
+(18, 'collections', 'Mini Collection', 'Mini Collection', 'This collection has the chic vibes that is perfect for the summmer. Get this collection for', 99, 'mimg/mini_collection.jpg');
 
 -- --------------------------------------------------------
 
@@ -320,7 +322,7 @@ ALTER TABLE `review`
 -- AUTO_INCREMENT for table `addcart`
 --
 ALTER TABLE `addcart`
-  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `category`
@@ -344,7 +346,7 @@ ALTER TABLE `gallery`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT for table `registration`

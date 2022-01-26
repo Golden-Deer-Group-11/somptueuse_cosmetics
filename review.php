@@ -2,7 +2,7 @@
 <body>
 	
 	<!-- Start All Pages -->
-	<center> <img src="feedback.jpg" style="background-color: red"> </center>
+	<center> <img src="images/FEEDBACK.png" style="background-color: red"> </center>
 	<!-- End All Pages -->
 	
 	<!-- Start Contact -->

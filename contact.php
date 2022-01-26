@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>	
 	<!-- Start All Pages -->
 		
-		<img src="images/cn.png" width="100%">
+		<img src="images/contact.png" width="100%">
 	<!-- End All Pages -->
 	
 	<!-- Start Contact -->

@@ -59,11 +59,8 @@
 				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
 					<div class="inner-column">
 						<h1>Welcome To <span>Somptueuse Cosmetics</span></h1>
-						<h4>Little Story</h4>
-						<p>Restaurants in Ahmedabad, Ahmedabad Restaurants, Bopal restaurants, Best Bopal restaurants, West Ahmedabad restaurants, Gujarati Restaurants in Ahmedabad, Gujarati near me, Gujarati Restaurants in West Ahmedabad, 
-Gujarati Restaurants in Bopal, 
- </p>
-						<p>Quick Bites in Ahmedabad, Quick Bites near me, Quick Bites in West Ahmedabad, Quick Bites in Bopal, in Ahmedabad, near me, in West Ahmedabad, in Bopal, in Ahmedabad, near me, in West Ahmedabad, in Bopal, New Year Parties in Ahmedabad, Christmas' Special in Ahmedabad,</p>
+						<p>A really nice shade of liptint can make you feel beautiful and confident, and Somptueuse Cosmetics wanted to share that feeling with it’s ladies. With shades from light pink to dark red, we opted to cater to all age brackets. Everything is paraben and cruelty free, and is made up of all natural ingredients, enriched with vitamins. These products are safe for kids and lactating moms. </p>
+						<p>Somptueuse Cosmetics was established during the height of pandemic at November 2020 as the owners see it as an embodiment of life’s new chapter. It was created with the aim to make products affordable but with the best of quality. Currently, there are 10 available shades and can be bought online. </p>
 						<a class="btn btn-lg btn-circle btn-outline-new-white" href="contact.php">Contact Us</a>
 					</div>
 				</div>
@@ -81,7 +78,7 @@ Gujarati Restaurants in Bopal,
 			<div class="row">
 				<div class="col-md-8 ml-auto mr-auto text-center">
 					<p class="lead ">
-						" If you're not the one cooking, stay out of the way and compliment the chef. "
+						" Every Daisy is peculiarly beautiful. "
 					</p>
 					<span class="lead">Somptueuse Cosmetics</span>
 				</div>
@@ -129,7 +126,7 @@ Gujarati Restaurants in Bopal,
 										<div class="why-text">
 											<h4><?php echo $r['title']; ?></h4>
 											<p><?php echo $r['description']; ?></p>
-											<p>₱ <?php echo $r['price']; ?> /-</p>
+											<p>₱ <?php echo $r['price']; ?>.00</p>
 											<h5 align="center">
 									<?php if(isset($_SESSION['uid']))
 									{
@@ -168,7 +165,7 @@ Gujarati Restaurants in Bopal,
 										<div class="why-text">
 											<h4><?php echo $r['title']; ?></h4>
 											<p><?php echo $r['description']; ?></p>
-											<h5>₱ <?php echo $r['price']; ?> /-</h5>
+											<h5>₱ <?php echo $r['price']; ?>.00</h5>
 											<h5 align="center">
 												<?php if(isset($_SESSION['uid']))
 									{
@@ -210,7 +207,7 @@ Gujarati Restaurants in Bopal,
 										<div class="why-text">
 											<h4><?php echo $r['title']; ?></h4>
 											<p><?php echo $r['description']; ?></p>
-											<h5>₱ <?php echo $r['price']; ?> /-</h5>
+											<h5>₱ <?php echo $r['price']; ?>.00</h5>
 											<h5 align="center">
 												<?php if(isset($_SESSION['uid']))
 									{
@@ -246,7 +243,7 @@ Gujarati Restaurants in Bopal,
 										<div class="why-text">
 											<h4><?php echo $r['title']; ?></h4>
 											<p><?php echo $r['description']; ?></p>
-											<h5>₱ <?php echo $r['price']; ?> /-</h5>
+											<h5>₱ <?php echo $r['price']; ?>.00</h5>
 											<h5 align="center">
 											 <?php if(isset($_SESSION['uid']))
 									{

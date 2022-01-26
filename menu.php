@@ -51,7 +51,7 @@
 										<div class="why-text">
 											<h4><?php echo $r['title']; ?></h4>
 											<p><?php echo $r['description']; ?></p>
-											<p>₱ <?php echo $r['price']; ?> /-</p>
+											<p>₱ <?php echo $r['price']; ?>.00</p>
 											<h5 align="center">
 									<?php if(isset($_SESSION['uid']))
 									{
@@ -90,7 +90,7 @@
 										<div class="why-text">
 											<h4><?php echo $r['title']; ?></h4>
 											<p><?php echo $r['description']; ?></p>
-											<h5>₱ <?php echo $r['price']; ?> /-</h5>
+											<h5>₱ <?php echo $r['price']; ?>.00</h5>
 											<h5 align="center">
 												<?php if(isset($_SESSION['uid']))
 									{
@@ -132,7 +132,7 @@
 										<div class="why-text">
 											<h4><?php echo $r['title']; ?></h4>
 											<p><?php echo $r['description']; ?></p>
-											<h5>₱ <?php echo $r['price']; ?> /-</h5>
+											<h5>₱ <?php echo $r['price']; ?>.00</h5>
 											<h5 align="center">
 												<?php if(isset($_SESSION['uid']))
 									{
@@ -171,7 +171,7 @@
 										<div class="why-text">
 											<h4><?php echo $r['title']; ?></h4>
 											<p><?php echo $r['description']; ?></p>
-											<h5>₱ <?php echo $r['price']; ?> /-</h5>
+											<h5>₱ <?php echo $r['price']; ?>.00</h5>
 											<h5 align="center">
 											 <?php if(isset($_SESSION['uid']))
 									{
