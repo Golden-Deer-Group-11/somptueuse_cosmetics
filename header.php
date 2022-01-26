@@ -50,33 +50,31 @@
 					if(isset($_SESSION['uid']))
 					{
 					?>
-					HI <?php echo $_SESSION['uid']; ?> &nbsp;&nbsp; <a href="cart.php">Cart</a>&nbsp;&nbsp; <a href="logout.php">LogOut</a>
+					Hi <?php echo $_SESSION['uid']; ?> &nbsp;&nbsp; <a href="cart.php"><img src="images/cart.png" height="30"></a>&nbsp;&nbsp; <a href="logout.php">LogOut</a>
 					<?php	
 					}
 					else
 					{	
 					?>
-					<a href="registration.php">New User</a>&nbsp;&nbsp;&nbsp;<a href="login.php">Login</a>
+					<a href="registration.php">Register</a>&nbsp;&nbsp;&nbsp;<a href="login.php">Login</a>
 					<?php
 					}
 					?>	
 
 					  </div>
-				<div class="collapse navbar-collapse" id="navbars-rs-food">
+				<div class="collapse navbar-collapse" id="navbars-P-products">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="menu.php">Products</a></li>
 						<li class="nav-item"><a class="nav-link" href="gallery.php">Collections</a></li>
 						<li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
-						<li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
 						<li class="nav-item"><a class="nav-link" href="review.php">Reviews</a></li>
 
 						<!--<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown"><img src="images/login.png" height="30"></a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="reservation.html">Reservation</a>
-								<a class="dropdown-item" href="stuff.html">Stuff</a>
-								<a class="dropdown-item" href="gallery.html">Gallery</a>
+								<a class="dropdown-item" href="logout.php">Log Out</a>
+			
 							</div>
 						</li> -->
 						<!--<li class="nav-item dropdown">
