@@ -44,13 +44,20 @@
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-P-products" aria-controls="navbars-P-products" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
-				<div>
+				<div class="collapse navbar-collapse" id="navbars-P-products">
 
 					<?php
 					if(isset($_SESSION['uid']))
 					{
 					?>
-					Hi <?php echo $_SESSION['uid']; ?> &nbsp;&nbsp; <a href="cart.php"><img src="images/cart.png" height="30"></a>&nbsp;&nbsp; <a href="logout.php">LogOut</a>
+					<li class="nav-item"><a class="nav-link" href="cart.php" ><img src="images/cart.png" height="30"></a></li>
+					<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown"><img src="images/login.png" height="28"></a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="logout.php">Log Out</a>
+							</div>
+						</li>
+					
 					<?php	
 					}
 					else
@@ -76,7 +83,7 @@
 								<a class="dropdown-item" href="logout.php">Log Out</a>
 			
 							</div>
-						</li> -->
+						</li>-->
 						<!--<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
