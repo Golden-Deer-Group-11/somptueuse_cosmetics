@@ -18,7 +18,7 @@
 				</div>
 			</li>
 			<li class="text-left">
-				<img src="images/daisy1.jpg" alt="">
+				<img src="images/daisy_collection.jpg" alt="">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
