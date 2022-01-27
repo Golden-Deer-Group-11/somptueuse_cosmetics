@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <?php include "header.php"; ?>
 	<!-- Start header -->
 	<img src="images/about.png" width="100%">
