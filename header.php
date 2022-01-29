@@ -38,12 +38,24 @@
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
-				<a class="navbar-brand" href="index.php">
-					<img src="images/sompcos_logo.png" height="50" alt="" />
-				</a>
+				<div class="collapse navbar-collapse" id="navbars-P-products">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.php" >Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="menu.php">Products</a></li>
+						<li class="nav-item"><a class="nav-link" href="gallery.php">Collections</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="review.php">Reviews</a></li>
+					</ul>
+				</div>
+				
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-P-products" aria-controls="navbars-P-products" aria-expanded="false" aria-label="Toggle navigation">
 				  <span class="navbar-toggler-icon"></span>
 				</button>
+				
+				<a class="navbar-brand" href="index.php">
+					<img src="images/sompcos_logo.png" height="50" alt="" />
+				</a>
+				
 				<div class="collapse navbar-collapse" id="navbars-P-products">
 
 					<?php
@@ -63,37 +75,13 @@
 					else
 					{	
 					?>
-					<a href="registration.php">Register</a>&nbsp;&nbsp;&nbsp;<a href="login.php">Login</a>
+					<a class="headerbtn hdrbtn btn-circle btn-outline-header-white" href="login.php">Log In</a>&nbsp;&nbsp;&nbsp;<a class="headerbtn hdrbtn btn-circle btn-outline-new-white" href="registration.php">Register</a>
 					<?php
 					}
 					?>	
 
-					  </div>
-				<div class="collapse navbar-collapse" id="navbars-P-products">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="index.php" >Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="menu.php">Products</a></li>
-						<li class="nav-item"><a class="nav-link" href="gallery.php">Collections</a></li>
-						<li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
-						<li class="nav-item"><a class="nav-link" href="review.php">Reviews</a></li>
-
-						<!--<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown"><img src="images/login.png" height="30"></a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="logout.php">Log Out</a>
-			
-							</div>
-						</li>-->
-						<!--<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="blog.html">blog</a>
-								<a class="dropdown-item" href="blog-details.html">blog Single</a>
-							</div>
-						</li> -->
-						<!--<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
-					</ul>
-				</div>
+					  </div>	  
+				
 			</div>
 		</nav>
 	</header>

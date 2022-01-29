@@ -69,7 +69,7 @@
 						$des = $_POST['desc'];
 						include "connect.php";
 						mysqli_query($con,"insert into review(name, review, description) values('$nm','$rev','$des')");
-						echo "<h2 style='color:tomato; text-align:center;'>Data Addedd SuccessFully</h2>";
+						echo "<h2 style='color:tomato; text-align:center;'>Thank you for Supporting Us.</h2>";
 					}	
 
 					?>

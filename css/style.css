@@ -212,6 +212,47 @@ button:focus{
 .navbar-light .navbar-toggler:hover{
 	background: #964d29;
 }
+.headerbtn{
+	text-transform: uppercase;
+	width: 110px;
+	padding: 50px 50px;
+}
+.hdrbtn{
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 2px solid transparent;
+	padding: 5px 5px;
+	font-size: 13px;
+	line-height: 1.5;
+	border-radius: .1875rem;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.btn-outline-new-white {
+    color: #fff;
+    background-color: #964d29;
+    background-image: none;
+    border-color: #964d29;
+}
+
+.btn-outline-header-white {
+    color: #964d29;
+    background-color: #ffffff;
+    background-image: none;
+    border-color: #964d29;
+
+}
+.btn-outline-new-white:hover {
+    color: #ffffff;
+    background-color: #333333;
+    border-color: #333333;
+}
 
 /*------------------------------------------------------------------
     Slider
@@ -367,7 +408,7 @@ button:focus{
 
 
 .qt-background{
-	background: url(../images/vintage_hd_matte_tints.jpg) no-repeat;
+	background: url(../images/DAISY.png) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
