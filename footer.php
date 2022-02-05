@@ -1,40 +1,3 @@
-	
-	<!-- Start Contact info --
-	<div class="contact-imfo-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4 arrow-right">
-					<i class="fa fa-volume-control-phone"></i>
-					<div class="overflow-hidden">
-						<h4>Phone</h4>
-						<p class="lead">
-							+63 926-4438-378
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4 arrow-right">
-					<i class="fa fa-envelope"></i>
-					<div class="overflow-hidden">
-						<h4>Email</h4>
-						<p class="lead">
-							somptueusecosmetics@gmail.com
-						</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<i class="fa fa-map-marker"></i>
-					<div class="overflow-hidden">
-						<h4>Location</h4>
-						<p class="lead">
-							Commonwealth, Quezon City
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	-- End Contact info -->
-	
 	<!-- Start Footer -->
 	<footer class="footer-area bg-f">
 		<div class="container" style="align-items: center;">
@@ -50,16 +13,6 @@
 
 					<div class="subscribe_form"></div>
 				</div>
-
-<!--
-				<div class="col-lg-3 v-divider">
-					<h2 style="color: #964d29" >KEEP IN TOUCH</h2>
-					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="https://www.facebook.com/somptueusecosmetics"><i class="fa fa-facebook" aria-hidden="true"></i></a></p>
-					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></p>
-					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></p>
-					<p class="list-inline-item" style="padding-right: 7px; padding-top: 7px"><a href="https://instagram.com/somptueuse_cosmetics"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
-				</div>
-			-->
 
 				<div class="col-lg-3 v-divider">
 					<h2 style="color: #964d29">KEEP IN TOUCH</h2>

@@ -667,11 +667,11 @@ button:focus{
 
 .footer-area{
 	padding-top: 50px;
-	padding-bottom: 0px;
+	padding-bottom: 0px;d
 }
 .bg-f{
 	color: white;
-	border-top: 10px solid black;
+	border-top: 10px solid #964d29;
 	/*background-image: url("../images/footer-bg.jpg");
 	background-attachment: scroll;
 	background-clip: initial;
@@ -754,7 +754,7 @@ button:focus{
 	margin-right:30px;
 	padding: 2px;
 	width:2px;
-	border-right:2px solid black;
+	border-right:2px solid #964d29;
 	vertical-align: center;
 }
 
@@ -818,7 +818,7 @@ button:focus{
 	margin-top: 20px;
 	position: relative;
 	display: block;
-	background-color: black;
+	background-color: #964d29;
 	border-top: 1px solid rgba(207, 166, 113);
 	padding: 30px 0;
 	z-index: 1;
