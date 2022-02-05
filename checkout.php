@@ -17,33 +17,33 @@ include "header.php";
             </tr>
 			    <tr align="center">
 
-			    	<td style="color: red">  Enter your name  <br>
-			        <input type="text" name="nm" placeholder="Enter your name" style="width: 100%; padding: 10px; color: orange; background-color: black" required="" pattern="[a-z,A-Z]*"></td>
+			    	<td style="color: #964d29">  Enter your name  <br>
+			        <input type="text" name="nm" placeholder="Enter your name" style="width: 100%; padding: 10px; color: black;" required="" pattern="[a-z,A-Z]*"></td>
 			    		
 			    </tr>
 
 			    <tr align="center">
-			    	<td style="color: red">   Enter Mobile no <br>
-			        <input type="no" name="mo" placeholder="Enter Mobile no" style="width: 100%; padding: 10px; color: orange; background-color: black" required="" pattern="\d{11}"></td>
+			    	<td style="color: #964d29">   Enter Mobile number <br>
+			        <input type="no" name="mo" placeholder="Enter mobile number" style="width: 100%; padding: 10px; color: black;" required="" pattern="\d{11}"></td>
 			    </tr>
 
 			    <tr align="center">
-			    	<td style="color: red">   Enter Email address <br>
-			        <input type="Email" name="em" placeholder="Enter email address" style="width: 100%; padding: 10px; color: orange; background-color: black"></td>
+			    	<td style="color: #964d29">   Enter Email address <br>
+			        <input type="Email" name="em" placeholder="Enter email address" style="width: 100%; padding: 10px; color: black;"></td>
 			    </tr>
 
                 <tr align="center">
-                	<td style="color: red"> Enter address <br>
-                 <input type="text" name="ad" placeholder="enter your address" style="width: 100%; padding: 50px; color: orange; background-color: black">
+                	<td style="color: #964d29"> Enter Address <br>
+                 <input type="text" name="ad" placeholder="Enter your address" style="width: 100%; padding: 10px; color: black;"></td> 
                 </tr>	
 
                 <tr align="center">
-                	<td colspan="4" > <input type="submit" name="s" value="Confirm Order" style="height: 50px; background-color:lightgreen; color: black; padding: 10px; width: 30%;"> </td>
+                	<td colspan="4" > <input type="submit" name="s" value="Confirm Order" style="height: 50px; background-color:#964d29; color: white; padding: 10px; width: 30%;"> </td>
                 	
                 </tr>
 
-                		    </table>	
-			</form>
+         </table>	
+	</form>
 		           <br> <br>
 
 
