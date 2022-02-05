@@ -1,7 +1,6 @@
 <?php include "header.php"; ?>
 <?php include "connect.php"; ?>
 
-include "header.php"; ?>
 <div style="background-color: white; width: 98%; margin: 0 auto; ">
 	<br>
 	<?php	include "connect.php";
