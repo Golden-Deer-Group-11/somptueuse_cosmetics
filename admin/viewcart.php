@@ -1,6 +1,5 @@
-<?php session_start();
-if(isset($_SESSION['uid']))
-{
+<?php include "header.php"; ?>
+<?php include "connect.php"; ?>
 
 include "header.php"; ?>
 <div style="background-color: white; width: 98%; margin: 0 auto; ">
@@ -50,11 +49,3 @@ INNER JOIN checkout ON addcart.p_id=checkout.p_id INNER JOIN products on product
 </div>
 
 <?php include "footer.php"; ?>
-
-<?php
-}
-else
-{
-     header("location:index.php");
-}
-?>
