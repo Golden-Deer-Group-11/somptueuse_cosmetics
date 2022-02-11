@@ -164,10 +164,9 @@ button:focus{
 }
 
 .top-navbar .navbar{
-	padding: 15px 0px;
+	padding: 15px 15px 10px 10px;
 	position: fixed;
 	width: 100%;
-	border-radius: 0px 0px 100px 100px;
 	transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
@@ -179,8 +178,7 @@ button:focus{
 .top-navbar .navbar-light .navbar-nav .nav-link{
 	color: #010101;
 	font-size: 16px;
-	padding: 10px 20px;
-	border-radius: 4px;
+	padding: 50px 50px 50 px 50 px;
 	text-transform: uppercase;
 }
 
@@ -191,13 +189,11 @@ button:focus{
 .top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
 	background: #964d29;
 	color: #ffffff;
-	border-radius: 4px;
 }
 
 .navbar-expand-lg .navbar-nav .dropdown-menu{
 	border: none;
-	border-radius: 0px;
-	padding: 10px;
+	padding: 50px;
 	box-shadow: 2px 5px 6px rgba(0,0,0,0.5);
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu a{
@@ -215,7 +211,7 @@ button:focus{
 .headerbtn{
 	text-transform: uppercase;
 	width: 110px;
-	padding: 50px 50px;
+	padding: 10px 10px;
 }
 .hdrbtn{
 	display: inline-block;
@@ -252,6 +248,17 @@ button:focus{
     color: #ffffff;
     background-color: #333333;
     border-color: #333333;
+}
+
+.right{
+	right: 0px;
+	position: absolute;
+}
+
+.center{
+	margin-right: auto;
+	margin-left: auto;
+}
 }
 
 /*------------------------------------------------------------------
