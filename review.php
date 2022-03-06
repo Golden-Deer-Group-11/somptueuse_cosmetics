@@ -116,7 +116,7 @@
 								<div class="img-box p-1 border rounded-circle m-auto">
 									<img class="d-block w-100 rounded-circle" src="images/quotations-button.png" alt="">
 								</div>
-								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Nilkanth</strong></h5>
+								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">Eunice</strong></h5>
 								<h6 class="text-dark m-0">Review : Good</h6>
 								<p class="m-0 pt-3">
 									Good Price, Good Product

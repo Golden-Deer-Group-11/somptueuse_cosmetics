@@ -259,8 +259,7 @@ CREATE TABLE `review` (
 --
 
 INSERT INTO `review` (`id`, `name`, `review`, `description`) VALUES
-(5, 'Milan vagh', 'Exellent', 'best hotel oh gujarat'),
-(6, 'naimish gadhiya', 'Exellent', 'abcdf');
+(6, 'GD', 'Excellent', 'Nice Product!');
 
 --
 -- Indexes for dumped tables
