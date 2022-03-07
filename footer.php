@@ -8,6 +8,7 @@
 					<p class="list-inline-item"><a href="contact.php">Contact Us</a></p> <br>
 					<p class="list-inline-item"><a href="menu.php">Products</a></p> <br>
 					<p class="list-inline-item"><a href="gallery.php">Collections</a></p> <br>
+					<p class="list-inline-item"><a href="review.php">Reviews</a></p> <br>
 					<p class="list-inline-item"><a href="br_amb.php">Brand Ambassadors</a></p> <br>
 					<p class="list-inline-item"><a href="br_inf.php">Brand Influencers</a></p> 
 

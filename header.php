@@ -41,13 +41,19 @@
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container">
+				<a class="navbar-brand" href="index.php">
+					<img src="images/sompcos_logo.png" height="50" alt="" />
+				</a>
+				
+				<div class="collapse navbar-collapse" id="navbars-P-products">
+
+
 				<div class="collapse navbar-collapse" id="navbars-P-products">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="index.php" >Home</a></li>
-						<li class="nav-item"><a class="nav-link" href="menu.php">Products</a></li>
+						<li class="nav-item"><a class="nav-link" href="menu.php">Beauty</a></li>
 						<li class="nav-item"><a class="nav-link" href="gallery.php">Collections</a></li>
 						<li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
-						<li class="nav-item"><a class="nav-link" href="review.php">Reviews</a></li>
 					</ul>
 				</div>
 				
@@ -55,12 +61,7 @@
 				  <span class="navbar-toggler-icon"></span>
 				</button>
 				
-				<a class="navbar-brand" href="index.php">
-					<img src="images/sompcos_logo.png" height="50" alt="" />
-				</a>
 				
-				<div class="collapse navbar-collapse" id="navbars-P-products">
-
 					<?php
 					if(isset($_SESSION['uid']))
 					{

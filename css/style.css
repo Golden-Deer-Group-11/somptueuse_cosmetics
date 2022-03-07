@@ -160,13 +160,14 @@ button:focus{
 -------------------------------------------------------------------*/
 .top-navbar{
 	position: relative;
-	z-index: 50;
+	z-index: 10;
 }
 
 .top-navbar .navbar{
-	padding: 15px 15px;
+	padding: 15px 15px 10px 10px;
 	position: fixed;
 	width: 100%;
+	border-radius: 0px 0px 100px 100px;
 	transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
@@ -178,7 +179,8 @@ button:focus{
 .top-navbar .navbar-light .navbar-nav .nav-link{
 	color: #010101;
 	font-size: 16px;
-	padding: 10px 10px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 4px;
 	text-transform: uppercase;
 }
 
@@ -193,7 +195,8 @@ button:focus{
 
 .navbar-expand-lg .navbar-nav .dropdown-menu{
 	border: none;
-	padding: 50px;
+	border-radius: 0px;
+	padding: 10px;
 	box-shadow: 2px 5px 6px rgba(0,0,0,0.5);
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu a{
@@ -211,7 +214,7 @@ button:focus{
 .headerbtn{
 	text-transform: uppercase;
 	width: 110px;
-	padding: 10px 10px;
+	padding: 50px 50px;
 }
 .hdrbtn{
 	display: inline-block;
@@ -248,15 +251,6 @@ button:focus{
     color: #ffffff;
     background-color: #333333;
     border-color: #333333;
-}
-
-.right {
-	float: right;
-	padding: 10px;
-
-}
-.left{
-	margin-left: auto;
 }
 
 .center{
